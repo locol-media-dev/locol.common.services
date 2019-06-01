@@ -13,7 +13,7 @@ This module provides the following functions:
 
 To include this module into a locol service
 -------------------------------------------
-npm install git+ssh://git@gitlab.tech.locol.media/core/locol.common.services.git
+npm install https://github.com/locol-media-dev/locol.common.services.git
 
 Examples of usage of these functions
 -------------------------------------------
