@@ -15,13 +15,14 @@ const $$ = this
 
 
 module.exports =
-    {
-        init: async function () {
-            let connectionPool = mysql.createPool(configMap.system.mySql)
-            $$.connection = await connectionPool.getConnection()
-        },
-        getConnection: function () {
-            return $$.connection
-        }
+{
+    init: async function () {
+        $$.connectionPool = mysql.createPool(configMap.system.mySql)
+        
+    },
+    getConnection: async function () {
+        let connection = await $$.connectionPool.getConnection()
+        return connection
     }
+}
 
