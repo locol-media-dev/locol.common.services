@@ -13,7 +13,7 @@
     "cassandra-driver": "^3.5.0",
     "fs": "0.0.1-security",
     "kafka-node": "^2.6.1",
-    "mocha": "^6.0.1",
+    "mocha": "^6.2.3",
     "moment": "^2.22.1",
     "mysql2": "^1.6.5",
     "path": "^0.12.7",
